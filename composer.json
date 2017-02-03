@@ -1,0 +1,38 @@
+{
+    "name": "AlejoLespaul/SecurityModule",
+    "description": "Modulo de autenticación con Doctrine",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "version": "0.0.1",
+    "homepage": "",
+    "keywords": [
+
+    ],
+    "authors": [
+        {
+            "name": "Alejando Furgeri",
+            "email": "alesitoman@gmail.com",
+            "homepage": "",
+            "role": "Desarrollador"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6",
+        "zendframework/zend-mvc": "^3.0.4",
+        "zendframework/zend-mvc-plugin-flashmessenger": "^1.0.0",
+        "doctrine/doctrine-orm-module": "^1.0",
+        "zendframework/zend-authentication": "^2.5",
+        "zendframework/zend-permissions-rbac": "^2.5",
+        "zendframework/zend-i18n": "^2.7",
+        "zendframework/zend-session": "^2.7",
+        "zendframework/zend-mvc-plugin-identity": "^1.0",
+        "zendframework/zend-crypt": "^3.2",
+        "gedmo/doctrine-extensions": "^2.4.24"
+    },
+    "autoload": {
+        "psr-4": {
+            "SecurityModule\\": "src/"
+        }
+    }
+}
