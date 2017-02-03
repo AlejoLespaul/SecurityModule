@@ -1,9 +1,9 @@
 {
-    "name": "AlejoLespaul/SecurityModule",
+    "name": "alejo-lespaul/security-module",
     "description": "Modulo de autenticación con Doctrine",
     "type": "library",
     "license": "BSD-3-Clause",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "homepage": "",
     "keywords": [
 
